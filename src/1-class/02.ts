@@ -14,7 +14,7 @@ export class Car {
     }
 
     start(): void {
-        console.log(`This ${this.model}, made by ${this.brand}, from ${this.year} is on road.`)
+        console.log(`This ${this.model}, made by ${this.brand}, from ${this.year} is on road!`)
     }
 }
 

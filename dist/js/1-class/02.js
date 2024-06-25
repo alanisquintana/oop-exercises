@@ -11,7 +11,7 @@ class Car {
         this.year = year;
     }
     start() {
-        console.log(`This ${this.model}, made by ${this.brand}, from ${this.year} is on road.`);
+        console.log(`This ${this.model}, made by ${this.brand}, from ${this.year} is on road!`);
     }
 }
 exports.Car = Car;
