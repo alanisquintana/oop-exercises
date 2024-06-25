@@ -1,4 +1,6 @@
-/* Write a TypeScript class called Car with the properties make, model, and year. Add a method start() that prints a message indicating that the Bus is starting. */
+/* Write a TypeScript class called Car with the properties brand, model, and 
+year. Add a method start() that prints a message indicating that the car is 
+starting. */
 
 export class Car {
     brand: string

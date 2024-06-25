@@ -1,4 +1,9 @@
-// Write a TypeScript class that defines a base class Truck with properties like make, model, and year, along with a start() method that prints a starting message. Now create a class called Engine with the properties horsepower and fuelType. Modify the Truck class to include an instance of the Engine class as a property. Implement a method printTruckDetails() in the Truck class that prints both Truck and engine details.
+/* Write a TypeScript class that defines a base class Truck with properties 
+like brand, model, and year, along with a start() method that prints a starting 
+message. Now create a class called Engine with the properties horsepower and 
+fuelType. Modify the Truck class to include an instance of the Engine class as 
+a property. Implement a method printTruckDetails() in the Truck class that 
+prints both Truck and engine details. */
 
 class Engine {
     horsePower: number
