@@ -13,3 +13,7 @@ class Bus {
         this.year = year
     }
 }
+
+const myBus = new Bus('Mercedes-Benz', 'O500RS', 2020);
+
+console.log(myBus);
