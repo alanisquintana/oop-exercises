@@ -21,3 +21,7 @@ class Client extends Person {
         this.id = id
     }
 }
+
+const myClient = new Client('George', 27, 1)
+
+console.log(myClient);

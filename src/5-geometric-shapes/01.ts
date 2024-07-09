@@ -27,3 +27,8 @@ class RectangleShape extends GeometricShape {
         return 2 * (this.width + this.height)
     }
 }
+
+const myRectangleShape =  new RectangleShape('Kirk', 100, 50)
+
+console.log( myRectangleShape.calculatingArea());
+console.log( myRectangleShape.calculatingPerimeter());
