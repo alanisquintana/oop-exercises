@@ -28,4 +28,6 @@ class Square extends Draw {
     }
 }
 
-const mySquare = new Square("Blue")
+const mySquare = new Square('Blue')
+
+console.log(mySquare);

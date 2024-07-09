@@ -16,9 +16,10 @@ class Lion extends Animals {
     }
 
     makeSound(): string {
-        return "Roar"
+        return 'Roar'
     }
 }
 
-const myLion = new Lion("Simba")
-console.log(`The lion ${myLion.name} says: ${myLion.makeSound()}.`)
+const myLion = new Lion('Simba')
+
+console.log(`The lion ${myLion.name} says: ${myLion.makeSound()}.`);

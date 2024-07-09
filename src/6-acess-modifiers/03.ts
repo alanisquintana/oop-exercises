@@ -22,4 +22,5 @@ class Airplane {
 }
 
 const myAirplane = new Airplane("Boeing", "Boeing 787 Dreamliner")
-console.log(myAirplane.getAirplaneInfo())
+
+console.log(myAirplane.getAirplaneInfo());

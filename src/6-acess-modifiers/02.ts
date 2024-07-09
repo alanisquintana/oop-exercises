@@ -26,5 +26,6 @@ class BankAccount {
     }
 }
 const myBankAccount = new BankAccount("178496")
-myBankAccount.deposit(500)
-myBankAccount.withdraw(200)
+
+console.log(myBankAccount.deposit(500));
+console.log(myBankAccount.withdraw(400));

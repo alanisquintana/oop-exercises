@@ -28,4 +28,5 @@ class SportsCar extends Car{
 }
 
 const mySportsCar = new SportsCar("Ferrari", "F8 Tributo")
-console.log(`My sports car is a ${mySportsCar.model} from ${mySportsCar.brand}.`)
+
+console.log(`My sports car is a ${mySportsCar.model} from ${mySportsCar.brand}.`);

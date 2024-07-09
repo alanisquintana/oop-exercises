@@ -15,13 +15,13 @@ class Suv extends Car {
 
     canOffRoad() {
         if (this.offroad) {
-            console.log("This vehicle is capable of driving off road.");
+            console.log('This vehicle is capable of driving off road.');
             return
         }
-        console.log("This vehicle is not suitable for off road driving.")
+        console.log('This vehicle is not suitable for off road driving.')
     }
 }
 
-const mySuv = new Suv("Jeep", "H2", 2009, true)
+const mySuv = new Suv('Jeep', 'H2', 2009, true)
 
 mySuv.canOffRoad()

@@ -25,5 +25,6 @@ class Tiger extends Animal{
     }
 }
 
-const myTiger = new Tiger("Manson", "Bengal Tiger")
+const myTiger = new Tiger('Manson', 'Bengal Tiger')
+
 myTiger.roar()

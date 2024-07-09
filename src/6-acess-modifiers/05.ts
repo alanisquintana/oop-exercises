@@ -20,4 +20,4 @@ Counter.increment()
 Counter.increment()
 Counter.increment()
 
-console.log(Counter.getCount())
+console.log(Counter.getCount());

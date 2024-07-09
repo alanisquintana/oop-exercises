@@ -22,4 +22,5 @@ class Guest {
 }
 
 const myGuest = new Guest("George", 27)
-console.log(myGuest.introduce())
+
+console.log(myGuest.introduce());

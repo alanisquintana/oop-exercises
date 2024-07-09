@@ -22,5 +22,6 @@ class Children {
     }
 }
 
-const myChildren = new Children("Stefano", -1)
-console.log(`My children ${myChildren.name} is ${myChildren.age} years old.`)
+const myChildren = new Children('Stefano', -1)
+
+console.log(`My children ${myChildren.name} is ${myChildren.age} years old.`);

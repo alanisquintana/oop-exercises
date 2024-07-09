@@ -26,5 +26,6 @@ class Stagiary extends EmployeeSalary {
     }
 }
 
-const myStagiary = new Stagiary("George", 239753)
-console.log(myStagiary.calculateSalary())
+const myStagiary = new Stagiary('George', 239753)
+
+console.log(myStagiary.calculateSalary());

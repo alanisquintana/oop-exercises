@@ -16,5 +16,6 @@ class Student {
     }
 }
 
-const myStudent = new Student("Alanis", 1)
+const myStudent = new Student('Alanis', 1)
+
 myStudent.start()

@@ -22,4 +22,5 @@ class StudentPrivate {
 }
 
 const myStudentPrivate = new StudentPrivate("Alanis", 867347)
-console.log(myStudentPrivate.displayInfo())
+
+console.log(myStudentPrivate.displayInfo());

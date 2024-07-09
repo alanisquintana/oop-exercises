@@ -20,7 +20,7 @@ class MathUtils {
 const num1 = 100
 const num2 = 10
 
-console.log(`Sum: ${MathUtils.sum(num1, num2)}`)
-console.log(`Subtraction: ${MathUtils.subtract(num1, num2)}`)
-console.log(`Multiplication: ${MathUtils.multiply(num1, num2)}`)
-console.log(`Division: ${MathUtils.divide(num1, num2)}`)
+console.log(`Sum: ${MathUtils.sum(num1, num2)}`);
+console.log(`Subtraction: ${MathUtils.subtract(num1, num2)}`);
+console.log(`Multiplication: ${MathUtils.multiply(num1, num2)}`);
+console.log(`Division: ${MathUtils.divide(num1, num2)}`);

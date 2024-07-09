@@ -21,5 +21,6 @@ class Circle extends Shape{
     }
 }
 
-const myCircle = new Circle("Red", 3.14)
-console.log(`My ${myCircle.color} circle has a ${myCircle.radius} radius.`)
+const myCircle = new Circle('Red', 3.14)
+
+console.log(`My ${myCircle.color} circle has a ${myCircle.radius} radius.`);

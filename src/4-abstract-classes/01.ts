@@ -25,6 +25,7 @@
         }
     }
 
-    const myRectangle = new Rectangle("Purple", 20, 10)
-    console.log(`My ${myRectangle.color} rectangle is ${myRectangle.getPerimeter()}cm.`)
+    const myRectangle = new Rectangle('Purple', 20, 10)
+
+    console.log(`My ${myRectangle.color} rectangle is ${myRectangle.getPerimeter()}cm.`);
     

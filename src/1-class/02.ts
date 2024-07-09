@@ -18,6 +18,6 @@ export class Car {
     }
 }
 
-const myCar = new Car("Chevrolet", "Onix", 2016)
+const myCar = new Car('Chevrolet', 'Onix', 2016)
 
 myCar.start()
