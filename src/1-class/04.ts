@@ -27,11 +27,10 @@ class Truck {
         this.year = year
         this.engine = engine
     }
-
+    
     start(): void {
         console.log(`This ${this.model}, made by ${this.brand}, from ${this.year} is on road.`)
     }
-
     printTruckDetails(): void {
         console.log("Truck Details:")
         console.log("Brand: ", this.brand)
@@ -44,5 +43,6 @@ class Truck {
 
 const myEngine = new Engine(750, "Diesel")
 const myTruck = new Truck("Volvo", "FH16", 1993, myEngine)
+
 myTruck.start()
 myTruck.printTruckDetails()

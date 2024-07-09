@@ -23,4 +23,5 @@ class Suv extends Car {
 }
 
 const mySuv = new Suv("Jeep", "H2", 2009, true)
+
 mySuv.canOffRoad()
